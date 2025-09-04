@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //크로아티아 알파벳
-public class N1542 {
+class N1542 {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
