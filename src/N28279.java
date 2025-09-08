@@ -22,11 +22,15 @@ public class N28279 {
                 if(!deque.isEmpty()){
                     int toPoll = deque.pollFirst();
                     sb.append(toPoll).append("\n");
+                }else{
+                    sb.append(-1).append("\n");
                 }
             }else if(command == 4){
                 if(!deque.isEmpty()){
                     int toPoll = deque.pollLast();
                     sb.append(toPoll).append("\n");
+                }else{
+                    sb.append(-1).append("\n");
                 }
             }else if(command == 5){
                 sb.append(deque.size()).append("\n");
@@ -40,10 +44,14 @@ public class N28279 {
             }else if(command == 7){
                 if(!deque.isEmpty()){
                     sb.append(deque.peek()).append("\n");
+                }else{
+                    sb.append(-1).append("\n");
                 }
             }else if(command == 8){
                 if(!deque.isEmpty()){
                     sb.append(deque.peekLast()).append("\n");
+                }else{
+                    sb.append(-1).append("\n");
                 }
             }
         }
